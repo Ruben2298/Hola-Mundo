@@ -1,8 +1,8 @@
 package Ejercicio2;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-import java.util.Random;
 
 public class OrdenarListas {
 	
@@ -30,6 +30,22 @@ public class OrdenarListas {
 		for(int i=0;i<Numeros.size() ;i++ ) {
 			int lista = (int)(Math.random() * Numeros.size());
 			System.out.println(Numeros.get(lista));
+		}
+		Ordenar();
+	}
+	public static void Ordenar() {
+		
+		List<Integer> Numeros;
+		
+		Numeros = new ArrayList<>();
+		
+		Numeros.add(1);
+		Numeros.add(50);
+		Numeros.add(-15);
+		
+		for(int i=0;i<Numeros.size() ;i++ ) {
+			Collections.sort(Numeros);
+			System.out.println(Numeros.get(i));
 		}
 	}
 }
