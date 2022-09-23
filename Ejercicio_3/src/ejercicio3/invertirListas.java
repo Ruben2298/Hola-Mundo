@@ -50,6 +50,12 @@ public class invertirListas {
 		List<Integer> numeros;
 		numeros = new ArrayList<Integer>();
 
+		// Introducimos los valores
+
+		numeros.add(NUMERO_1);
+		numeros.add(NUMERO_50);
+		numeros.add(NUMERO_MENOS15);
+
 		/* Invertimos el orden */
 
 		Collections.reverse(numeros);

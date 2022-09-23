@@ -57,7 +57,14 @@ public class ordenarListas {
 
 		numeros = new ArrayList<>();
 
+		// Introducimos los valores
+
+		numeros.add(NUMERO_50);
+		numeros.add(NUMERO_1);
+		numeros.add(NUMERO_MENOS15);
+
 		/* Lo ordenamos */
+
 		Collections.sort(numeros);
 
 		for (int i = 0; i < numeros.size(); i++) {
