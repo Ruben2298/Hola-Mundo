@@ -34,35 +34,17 @@ public class invertirListas {
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
 		}
-		/*
-		 * for (int i = 0; i < numeros.size(); i++) {
-		 * System.out.println(invertir(numeros)); }
-		 */
-		/* Métodos */
-
-		invertir();
-	}
-
-	public static void invertir() {
-
-		/* Creamos una lista */
-
-		List<Integer> numeros;
-		numeros = new ArrayList<Integer>();
-
-		// Introducimos los valores
-
-		numeros.add(NUMERO_1);
-		numeros.add(NUMERO_50);
-		numeros.add(NUMERO_MENOS15);
-
-		/* Invertimos el orden */
-
-		Collections.reverse(numeros);
 
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
 		}
+
+	}
+
+	public static void invertir(ArrayList numeros) {
+		/* Invertimos el orden */
+
+		Collections.reverse(numeros);
 
 	}
 

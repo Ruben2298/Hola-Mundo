@@ -18,7 +18,7 @@ public class ordenarListas {
 		/* Creamos una lista */
 		List<Integer> numeros;
 
-		numeros = new ArrayList<>();
+		numeros = new ArrayList<Integer>();
 
 		numeros.add(NUMERO_50);
 		numeros.add(NUMERO_1);
@@ -39,14 +39,15 @@ public class ordenarListas {
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
 		}
+		ordenar(numeros);
 
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i)); 
 		}
-		 
+		
 	}
 
-	public static void ordenar(ArrayList numeros) {
+	public static void ordenar(List<Integer> numeros) {
 		/* Lo ordenamos */
 		
 		Collections.sort(numeros);
