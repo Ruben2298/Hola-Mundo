@@ -34,14 +34,34 @@ public class invertirListas {
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
 		}
+		
+		/*ordenado*/
+		
+		ordenar(numeros);
+
+		for (int i = 0; i < numeros.size(); i++) {
+			System.out.println(numeros.get(i));
+		}
+		
+		/*desordenado*/
+		
+		invertir(numeros);
 
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
 		}
 
 	}
+	
+	public static void ordenar(List<Integer> numeros) {
+		/* Lo ordenamos */
+		
+		Collections.sort(numeros);
 
-	public static void invertir(ArrayList numeros) {
+
+	}
+
+	public static void invertir(List<Integer> numeros) {
 		/* Invertimos el orden */
 
 		Collections.reverse(numeros);
