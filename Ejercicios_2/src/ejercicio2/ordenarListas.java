@@ -40,36 +40,17 @@ public class ordenarListas {
 			System.out.println(numeros.get(i));
 		}
 
-		/*
-		 * for (int i = 0; i < numeros.size(); i++) {
-		 * System.out.print(numeros.get(ordenar())); }
-		 */
-
-		/* Métodos */
-		ordenar();
+		for (int i = 0; i < numeros.size(); i++) {
+			System.out.println(numeros.get(i)); 
+		}
+		 
 	}
 
-	public static void ordenar() {
-
-		/* Creamos una lista */
-
-		List<Integer> numeros;
-
-		numeros = new ArrayList<>();
-
-		// Introducimos los valores
-
-		numeros.add(NUMERO_50);
-		numeros.add(NUMERO_1);
-		numeros.add(NUMERO_MENOS15);
-
+	public static void ordenar(ArrayList numeros) {
 		/* Lo ordenamos */
-
+		
 		Collections.sort(numeros);
 
-		for (int i = 0; i < numeros.size(); i++) {
-			System.out.println(numeros.get(i));
-		}
 
 	}
 }
