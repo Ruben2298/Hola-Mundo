@@ -19,6 +19,8 @@ public class ordenarListas {
 		List<Integer> numeros;
 
 		numeros = new ArrayList<Integer>();
+		
+		/* Añadimos los valores */
 
 		numeros.add(NUMERO_50);
 		numeros.add(NUMERO_1);
