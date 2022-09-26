@@ -31,28 +31,31 @@ public class invertirListas {
 		numeros.add(NUMERO_50);
 		numeros.add(NUMERO_MENOS15);
 
-		/* Imprimir por pantalla */
+		/* Imprimimos por pantalla los distintos resultados */
 
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
-		}
-
-		/* Imprimir en ordenado */
-
-		ordenar(numeros);
-
-		for (int i = 0; i < numeros.size(); i++) {
+			ordenar(numeros);
+			System.out.println(numeros.get(i));
+			invertir(numeros);
 			System.out.println(numeros.get(i));
 		}
 
-		/* Imprimir en desordenado */
-
-		invertir(numeros);
-
-		for (int i = 0; i < numeros.size(); i++) {
-			System.out.println(numeros.get(i));
-		}
-
+		/*
+		 * Imprimir en ordenado
+		 * 
+		 * ordenar(numeros);
+		 * 
+		 * for (int i = 0; i < numeros.size(); i++) {
+		 * System.out.println(numeros.get(i)); }
+		 * 
+		 * Imprimir en invertido
+		 * 
+		 * invertir(numeros);
+		 * 
+		 * for (int i = 0; i < numeros.size(); i++) {
+		 * System.out.println(numeros.get(i)); }
+		 */
 	}
 
 	public static void ordenar(List<Integer> numeros) {

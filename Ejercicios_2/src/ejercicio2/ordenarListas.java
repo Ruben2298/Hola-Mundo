@@ -19,7 +19,7 @@ public class ordenarListas {
 		List<Integer> numeros;
 
 		numeros = new ArrayList<Integer>();
-		
+
 		/* Añadimos los valores */
 
 		numeros.add(NUMERO_50);
@@ -36,24 +36,29 @@ public class ordenarListas {
 		 * System.out.println(Numeros.get(2)+"  "+Nombres.get(2));
 		 */
 
-		/* Imprimir por pantalla */
+		/* Imprimir por pantalla los distintos resultados */
 
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
+			ordenar(numeros);
+			System.out.println(numeros.get(i));
 		}
-		ordenar(numeros);
 
-		for (int i = 0; i < numeros.size(); i++) {
-			System.out.println(numeros.get(i)); 
-		}
-		
+		/*
+		 * ordenar(numeros);
+		 * 
+		 * for (int i = 0; i < numeros.size(); i++) {
+		 * System.out.println(numeros.get(i)); }
+		 */
+
 	}
+
+	/* Funciones */
 
 	public static void ordenar(List<Integer> numeros) {
 		/* Lo ordenamos */
-		
-		Collections.sort(numeros);
 
+		Collections.sort(numeros);
 
 	}
 }
