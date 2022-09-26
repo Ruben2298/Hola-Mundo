@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public class holaMundo {
+public class HolaMundo {
 	/* Constante */
 
 	private static final String HOLA_MUNDO = "Hola Mundo";

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ordenarListas {
+public class OrdenarListas {
 	/* Constante */
 	private static final int NUMERO_MENOS15 = -15;
 	/* Constante */
@@ -26,15 +26,6 @@ public class ordenarListas {
 		numeros.add(NUMERO_1);
 		numeros.add(NUMERO_MENOS15);
 
-		/*
-		 * List<String> Nombres; Nombres = new ArrayList<>();
-		 * 
-		 * Nombres.add("Rubén"); Nombres.add("Carla"); Nombres.add("Natalia");
-		 * 
-		 * System.out.println(Numeros.get(0)+"  "+Nombres.get(0));
-		 * System.out.println(Numeros.get(1)+"  "+Nombres.get(1));
-		 * System.out.println(Numeros.get(2)+"  "+Nombres.get(2));
-		 */
 
 		/* Imprimir por pantalla los distintos resultados */
 
@@ -43,13 +34,6 @@ public class ordenarListas {
 			ordenar(numeros);
 			System.out.println(numeros.get(i));
 		}
-
-		/*
-		 * ordenar(numeros);
-		 * 
-		 * for (int i = 0; i < numeros.size(); i++) {
-		 * System.out.println(numeros.get(i)); }
-		 */
 
 	}
 

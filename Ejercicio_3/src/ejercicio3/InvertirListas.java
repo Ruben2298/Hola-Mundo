@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class invertirListas {
+public class InvertirListas {
 	/* Constante */
 
 	private static final int NUMERO_MENOS15 = -15;
@@ -40,22 +40,7 @@ public class invertirListas {
 			invertir(numeros);
 			System.out.println(numeros.get(i));
 		}
-
-		/*
-		 * Imprimir en ordenado
-		 * 
-		 * ordenar(numeros);
-		 * 
-		 * for (int i = 0; i < numeros.size(); i++) {
-		 * System.out.println(numeros.get(i)); }
-		 * 
-		 * Imprimir en invertido
-		 * 
-		 * invertir(numeros);
-		 * 
-		 * for (int i = 0; i < numeros.size(); i++) {
-		 * System.out.println(numeros.get(i)); }
-		 */
+		
 	}
 
 	public static void ordenar(List<Integer> numeros) {

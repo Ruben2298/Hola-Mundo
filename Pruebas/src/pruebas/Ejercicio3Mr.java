@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ejercicio3Mr {
+public class Ejercicio3Mr {
 
 	/* Constantes */
 

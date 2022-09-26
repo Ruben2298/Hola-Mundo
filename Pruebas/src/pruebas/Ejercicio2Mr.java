@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class ejercicio2Mr {
+public class Ejercicio2Mr {
 
 	/* Constantes */
 
@@ -36,12 +36,6 @@ public class ejercicio2Mr {
 			ordenar(numeros);
 			System.out.println(numeros);
 		}
-
-		/*
-		 * ordenar(numeros);
-		 * 
-		 * for (int i = 0; i < 1; i++) { System.out.println(numeros); }
-		 */
 	}
 
 	/* Funciones */
