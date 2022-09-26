@@ -24,9 +24,9 @@ public class invertirListas {
 		List<Integer> numeros;
 
 		numeros = new ArrayList<Integer>();
-		
+
 		/* Añadimos los números a la lista */
-		
+
 		numeros.add(NUMERO_1);
 		numeros.add(NUMERO_50);
 		numeros.add(NUMERO_MENOS15);
@@ -36,17 +36,17 @@ public class invertirListas {
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
 		}
-		
+
 		/* Imprimir en ordenado */
-		
+
 		ordenar(numeros);
 
 		for (int i = 0; i < numeros.size(); i++) {
 			System.out.println(numeros.get(i));
 		}
-		
+
 		/* Imprimir en desordenado */
-		
+
 		invertir(numeros);
 
 		for (int i = 0; i < numeros.size(); i++) {
@@ -54,12 +54,11 @@ public class invertirListas {
 		}
 
 	}
-	
+
 	public static void ordenar(List<Integer> numeros) {
 		/* Lo ordenamos */
-		
-		Collections.sort(numeros);
 
+		Collections.sort(numeros);
 
 	}
 
