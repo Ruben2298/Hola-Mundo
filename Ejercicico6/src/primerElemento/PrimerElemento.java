@@ -9,10 +9,9 @@ import java.util.Set;
 public class PrimerElemento {
 
 	/* Constantes */
-	private static final String CONSTANTE_NO_ESTÁ_EN_LA_PRIMERA_POSICIÓN_DE_LA_LISTA = " NO está en la primera posición de la lista";
-	private static final String CONSTANTE_ESTÁ_EN_LA_PTIMERA_POSICIÓN_Y_EN_LA_POSICIÓN = " está en la primera posición de la lista y en la posición ";
+	private static final String CONSTANTE_NO_ESTÁ_EN_LA_PRIMERA_POSICIÓN_DE_LA_LISTA = " NO está en la lista";
+	private static final String CONSTANTE_ESTÁ_EN_LA_PTIMERA_POSICIÓN_Y_EN_LA_POSICIÓN = " está en la lista y en la posición ";
 	private static final String CONSTANTE_EL_ELEMENTO = "El elemento ";
-	private static final String LISTA_SIN_REPETICIONES = "Lista sin repeticiones";
 	private static final String LISTA_REPETIDA = "Lista repetida";
 	private static final String LISTA_ORDENADA = "Lista ordenada";
 	private static final int CONSTANTE_8 = 8;
@@ -56,7 +55,7 @@ public class PrimerElemento {
 
 		// Busqueda de si el valor esta y cual es su posición
 		System.out.println();
-		buscar(0, numeros);
+		buscar(5, numeros);
 
 	}
 
@@ -80,13 +79,12 @@ public class PrimerElemento {
 	// Realizamos la funcion busqueda metiendo distintas variables como
 	// elementoaBuscar y posicion
 	public static boolean buscar(int elementoaBuscar, List<Integer> numeros) {
-		int posicion = numeros.get(0);
-		int posicion2 = numeros.get(elementoaBuscar);
-		if (posicion == posicion2)
+		int posicion = numeros.indexOf(elementoaBuscar);
+		if (posicion >-1)
 			// Imprime por pantalla un mensaje indicando que si está ese valor y en qué
 			// posición está
 			System.out.println(
-					CONSTANTE_EL_ELEMENTO + elementoaBuscar + CONSTANTE_ESTÁ_EN_LA_PTIMERA_POSICIÓN_Y_EN_LA_POSICIÓN + (posicion2+1));
+					CONSTANTE_EL_ELEMENTO + elementoaBuscar + CONSTANTE_ESTÁ_EN_LA_PTIMERA_POSICIÓN_Y_EN_LA_POSICIÓN + (posicion+1));
 		else
 			// Imprime por pantalla un mensaje indicando que no está ese valor 
 			System.out.println(CONSTANTE_EL_ELEMENTO + elementoaBuscar + CONSTANTE_NO_ESTÁ_EN_LA_PRIMERA_POSICIÓN_DE_LA_LISTA);

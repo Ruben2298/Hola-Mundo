@@ -7,10 +7,9 @@ import java.util.List;
 public class UltimoNumero {
 	
 	/* Constantes */
-	private static final String CONSTANTE_NO_ESTÁ_EN_LA_ÚLTIMA_POSICIÓN = " NO está en la última posición de la lista";
-	private static final String CONSTANTE_ESTÁ_EN_LA_ÚLTIMA_POSICIÓN = " está en la última posición de la lista. En la última posición y ";
+	private static final String CONSTANTE_NO_ESTÁ_EN_LA_ÚLTIMA_POSICIÓN = " NO está en la lista";
+	private static final String CONSTANTE_ESTÁ_EN_LA_ÚLTIMA_POSICIÓN = " está en la lista. En la última posición y ";
 	private static final String CONSTANTE_EL_ELEMENTO = "El elemento ";
-	private static final String LISTA_SIN_REPETICIONES = "Lista sin repeticiones";
 	private static final String LISTA_REPETIDA = "Lista repetida";
 	private static final String LISTA_ORDENADA = "Lista ordenada";
 	private static final int CONSTANTE_8 = 8;
