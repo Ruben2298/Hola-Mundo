@@ -28,11 +28,11 @@ public class OrdenarFDesc {
 		usuario1.add(new Usuario(CONSTANTE_LAURA,CONSTANTE_BARBERO));
 		usuario1.add(new Usuario(CONSTANTE_RUBÉN,CONSTANTE_TOLEDANO));
 
-		for (int i = 0; i < 4; i++) {
+		
+		Collections.sort(usuario1, Collections.reverseOrder(new Comparador()));
+		for (int i = 0; i < usuario1.size(); i++) {
 			System.out.println(usuario1.get(i));
 		}
-		
-		 Collections.sort(usuario, Collections.reverseOrder(new Comparador()));
-		 
+			
 	}
 }
