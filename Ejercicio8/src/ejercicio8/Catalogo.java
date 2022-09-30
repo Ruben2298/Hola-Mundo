@@ -9,7 +9,7 @@ public class Catalogo {
 	private Producto producto;
 	
 	// Constructor
-	public Catalogo(int id, int año, String tipoTemporada, Tienda tienda) {
+	public Catalogo(int id, int año, String tipoTemporada, Tienda tienda, Producto producto) {
 		this.id = id;
 		this.año = año;
 		this.tipoTemporada = tipoTemporada;
